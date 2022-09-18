@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade While</title>
+
+    <script>
+
+        /*Exercicio 1
+        var v1 = parseInt(prompt("Digite o primeiro valor: "));
+        var v2 = parseInt(prompt("Digite o segundo valor: "));
+        var resultado = v1/v2; 
+
+        while(v2 > 0 ){
+        alert(resultado);
+        break;   
+        } while(v2 <= 0){
+        alert("Digite no segundo numero uma numeração maior que 0");
+        break;
+        } */
+
+        /*Exercicio 2
+        var contagem = 30;
+
+        while(contagem !== -1 ){
+            if(contagem !== -1){
+            document.write(contagem + "<br>");
+            contagem--;
+        } if(contagem == 0){
+            document.write("Explosao");
+            contagem--;
+        }
+    } */
+
+        /*Exercicio 3
+        var contador = 10;
+
+        while(contador !== 0){
+            alert(contador);
+            contador--;
+        }*/
+        
+
+
+        /*Exercicio 4
+
+        var contagem = 15;
+        var soma = 0;
+
+        while(contagem <= 100){
+
+        document.write(contagem + "<br>");
+        soma = soma + contagem;
+        
+        contagem++;
+        }
+        document.write("A media é: " +soma); */
+        
+
+        /*Exercicio 5
+        var n1 = parseInt(prompt("Digite um número"));
+        var n2 = parseInt(prompt("Digite um número maior do que o primeiro"));
+
+            while(n2 < n1){
+
+                alert("Numero incorreto, coloque um numero maior do que " + n1 + ".");
+                n2 = parseInt(prompt("Insira um número valido"));
+            }
+
+            var diferenca = n2 - n1;
+            var soma = 0;
+            var contador = n1;
+
+            while(contador <= n2){
+                document.write(contador + "<br>");
+                soma = soma  + contador;
+                contador++;
+            }
+
+            document.write("A média dos numeros é: " + soma / diferenca); */
+
+            /*Exercicio 6
+            var nota1 = parseFloat(prompt("Insira a 1º nota do aluno"));
+            var nota2 = parseFloat(prompt("Insira a 2º nota do aluno"));
+            var media = (nota1 + nota2) / 2;
+
+            if(media >= 9.5){
+                document.write("Aprovado, média: " + media + "<br>");
+            }else{
+                document.write("Reprovado, média: " + media + "<br>");
+            }
+
+            var escolha = prompt("Calcular a média de outro aluno? Sim(s) / Não(s)");
+            while(escolha == "S"){
+                let nota1 = parseFloat(prompt("Insira a 1º nota do aluno"));
+                let nota2 = parseFloat(prompt("Insira a 2º nota do aluno"));
+                let media = (nota1 + nota2) / 2;
+
+                if(media >= 9.5){
+                    document.write("Aprovado, média: " + media + "<br>");
+                }else{
+                    document.write("Reprovado, média: " + media + "<br>");
+                }
+                escolha = prompt("Deseja calcular a média de outro aluno? Sim(S) / Não(N)");
+            }*/
+
+            /*Exercicio 7
+            var nota1 = parseInt(prompt("Digite a primeira nota: "));
+            var nota2 = parseInt(prompt("Digite a segunda nota: "));
+            var nota3 = parseInt(prompt("Digite a terceira nota: "));
+            var nota4 = parseInt(prompt("Digite a quarta nota: "));
+            var nota5 = parseInt(prompt("Digite a quinta nota: "));
+            var nota6 = parseInt(prompt("Digite a sexta nota: "));
+            var conta = (nota1 + nota2 + nota3 + nota4 + nota5 + nota6) / 6;
+
+            if(nota1, nota2, nota3, nota4, nota5, nota6 <= 10){
+                alert("A media é de: " +conta);
+            }else{
+                while(nota1, nota2, nota3, nota4, nota5, nota6 > 10){
+                    alert("Digite um numero menor que 10");
+            var nota1 = parseInt(prompt("Digite a primeira nota: "));
+            var nota2 = parseInt(prompt("Digite a segunda nota: "));
+            var nota3 = parseInt(prompt("Digite a terceira nota: "));
+            var nota4 = parseInt(prompt("Digite a quarta nota: "));
+            var nota5 = parseInt(prompt("Digite a quinta nota: "));
+            var nota6 = parseInt(prompt("Digite a sexta nota: "));
+            var conta = (nota1 + nota2 + nota3 + nota4 + nota5 + nota6) / 6;
+
+            alert("A media é de: " +conta);
+                }
+            } */
+
+            /*Exercicio 8
+            var n = parseInt(prompt("Digite um numero: "));
+            var contador = 2;
+
+            while(n !== contador){
+                document.write(contador +"<br>");
+                contador++;
+            }*/
+
+            /*Exercicio 9
+            var contagem = 100;
+
+            while(contagem <= 110){
+               document.write(contagem + "<br>");
+                contagem++; 
+            }*/
+        
+
+            /*exericio 10
+            var mult = 1;
+            var n = parseInt(prompt("Digite o numero da tabuada: "));
+
+            while(mult<n){
+                document.write("tabuada" + mult+ "<br>" +"<br>"  );
+                var i = 0;
+
+                while(i <= 10){
+                    multiplicacao = mult*i;
+                    document.write(mult + "x"  + i+ " = " +multiplicacao+ "<br>"  + "<br>");
+                    i++;
+                }
+                mult++;
+            }*/
+
+            /*Exercicio 11  //Esse exercicio fiquei com bastante duvida e n consegui finalizar ele
+            var n1 = parseInt(prompt("Digite o primeiro numero: "));
+            var n2 = parseInt(prompt("Digite o primeiro numero: "));
+            var n3 = parseInt(prompt("Digite o primeiro numero: "));
+            var n4 = parseInt(prompt("Digite o primeiro numero: "));
+            var n5 = parseInt(prompt("Digite o primeiro numero: "));
+            var n6 = parseInt(prompt("Digite o primeiro numero: "));
+            var n7 = parseInt(prompt("Digite o primeiro numero: "));
+            var n8 = parseInt(prompt("Digite o primeiro numero: "));
+            var n9 = parseInt(prompt("Digite o primeiro numero: "));
+            var n10 = parseInt(prompt("Digite o primeiro numero: "));
+            contador = 0;
+
+            while(n1,n2,n3,n4,n5,n6,n7,n8,n9n10 >= 24 && n1,n2,n3,n4,n5,n6,n7,n8,n9n10 <=42 ){
+                document.write(contador);
+                contador++;
+            }*/
+
+          
+        
+        
+        
+        
+
+
+
+
+    
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
